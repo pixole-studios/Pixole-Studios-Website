@@ -1,0 +1,27 @@
+html, body {
+   height: 100%;
+}
+
+.logoBlock {
+	margin-left: auto;
+	margin-right: auto;
+}
+.titleTextSmall {
+	font-family:"Moon 2.0";
+	font-size: 50px;
+	line-height: 60%;
+}
+.titleTextBig {
+	font-family: "Moon 2.0";
+	font-size: 120px;
+	line-height: 60%;
+}
+
+.container {
+	margin:0 auto;
+	padding:10px 25px;
+	border:20px solid #EECD00;
+	background:#fff;
+	border-style: none solid none solid;
+	box-sizing: border-box;
+}
