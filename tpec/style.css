@@ -1,20 +1,48 @@
 html, body {
-   height: 100%;
+	height: 100%;
 }
 
 .logoBlock {
+	display:inline;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.navBar {
+    text-align: justify;
+    min-width: 500px;
+}
+
+.navBar li{
+	/*Couldn't find a better way of evenly
+	spacing the nav bar links - width = 100 
+	divided by number of items each side
+	of the logo*/
+	width:33%;
+	
+	float:left;
+	display:inline;    
+	text-align:center;
+	font-family: 'moonbold';
+	font-size: 20px;
+	color:#1D1D1B;
+}
+
+
 .titleTextSmall {
-	font-family:"Moon 2.0";
-	font-size: 50px;
-	line-height: 60%;
+	font-family: 'moonbold';
+	font-size: 80px;
+	line-height: 90%;
+	font-weight:bold;
+	color:#1D1D1B;
+	
 }
 .titleTextBig {
-	font-family: "Moon 2.0";
-	font-size: 120px;
-	line-height: 60%;
+	font-family: 'moonbold';
+	font-size: 160px;
+	line-height: 90%;
+	font-weight:bold;
+	color:#1D1D1B;
 }
 
 .container {
@@ -25,3 +53,34 @@ html, body {
 	border-style: none solid none solid;
 	box-sizing: border-box;
 }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#container {
+    display: table;
+    height: 80%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.titleDiv{
+    padding: 40px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: 'moonbold';
+    src: url('fonts/moon_bold-webfont.woff2') format('woff2'),
+         url('fonts/moon_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
