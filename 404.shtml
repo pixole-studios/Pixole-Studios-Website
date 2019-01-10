@@ -1,0 +1,14 @@
+<!--#echo var="HTTP_REFERER" -->
+<!--#echo var="REMOTE_ADDR" -->
+<!--#echo var="REQUEST_URI" -->
+<!--#echo var="HTTP_HOST" -->
+<!--#echo var="HTTP_USER_AGENT" -->
+<!--#echo var="REDIRECT_STATUS" -->
+<span>
+	<h1 align="center"><br><br>
+	Uh oh! We can't find that page.. <br>
+	</h1>
+	<h3 align="center">Why not return to our homepage <a href="index.html">here</a></h3>
+	
+
+</span>
