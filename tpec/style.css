@@ -8,9 +8,14 @@ html, body {
 	margin-right: auto;
 }
 
+.navDiv{
+	width: 45%
+}
+
 .navBar {
     text-align: justify;
-    min-width: 500px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .navBar li{
@@ -24,14 +29,14 @@ html, body {
 	display:inline;    
 	text-align:center;
 	font-family: 'moonbold';
-	font-size: 20px;
+	font-size: 1vw;
 	color:#1D1D1B;
 }
 
 
 .titleTextSmall {
 	font-family: 'moonbold';
-	font-size: 80px;
+	font-size: 4vw;
 	line-height: 90%;
 	font-weight:bold;
 	color:#1D1D1B;
@@ -39,7 +44,7 @@ html, body {
 }
 .titleTextBig {
 	font-family: 'moonbold';
-	font-size: 160px;
+	font-size: 9vw;
 	line-height: 90%;
 	font-weight:bold;
 	color:#1D1D1B;
@@ -58,7 +63,8 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+	height:5vw;
+	width:5vw
 }
 
 #container {
@@ -83,4 +89,3 @@ html, body {
     font-style: normal;
 
 }
-
