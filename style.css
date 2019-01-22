@@ -1,0 +1,25 @@
+/*
+COLOURS
+#040044 - Dark Blue
+#00747B - Turquoise
+#78C586 - Avocado
+#CBDC48 - Lime
+#F9BEBE - Light Pink
+#C9526B - Dark Pink
+
+
+*/
+
+html, body {
+	height: 100%;
+}
+
+
+.container {
+	margin:0 auto;
+	padding:10px 25px;
+	border:20px solid #040044;
+	background:#fff;
+	border-style: none solid none solid;
+	box-sizing: border-box;
+}
