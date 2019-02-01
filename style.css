@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One');
 /*
 COLOURS
 #040044 - Dark Blue
@@ -10,10 +11,13 @@ COLOURS
 
 */
 
+p {
+	margin: 0;
+	padding: 0;
+}
 html, body {
 	height: 100%;
 }
-
 
 .container {
 	margin:0 auto;
@@ -22,4 +26,38 @@ html, body {
 	background:#fff;
 	border-style: none solid none solid;
 	box-sizing: border-box;
+}
+
+
+
+.Heading {
+	color:#040044;
+	font-size:4vw;
+	font-family: 'Yatra One', cursive;
+}
+
+.SubHeading {
+	color:#00747B;
+	font-size:3vw;
+	font-family: 'Yatra One', cursive;
+}
+
+.LeftNavBar {
+	height:100%;
+	color:#040044;
+	font-size:2vw;
+	font-family: 'Yatra One', cursive;
+	border:2px #F9BEBE ridge;
+	border-style: none solid none none;
+}
+
+.CurrentSelectedNavBar {
+	color:#C9526B;
+	background:#040044
+}
+
+.MainText {
+	color:#040044;
+	font-size:1vw;
+	font-family: 'Yatra One', cursive;
 }
