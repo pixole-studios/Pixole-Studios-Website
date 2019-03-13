@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yatra+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 /*
 COLOURS
 #040044 - Dark Blue
@@ -14,50 +17,28 @@ COLOURS
 p {
 	margin: 0;
 	padding: 0;
+		
+	padding-right: 25%;
+	padding-left:2%;
+
 }
 html, body {
 	height: 100%;
+	font-family: 'Comfortaa', cursive;
 }
 
 .container {
 	margin:0 auto;
-	padding:10px 25px;
-	border:20px solid #040044;
-	background:#fff;
-	border-style: none solid none solid;
-	box-sizing: border-box;
 }
 
+.logo {
+	width:20vw;
+	height:width;
+}
 
-
-.Heading {
+.title{
+	font-family: 'Comfortaa', cursive;
 	color:#040044;
-	font-size:4vw;
-	font-family: 'Yatra One', cursive;
-}
-
-.SubHeading {
-	color:#00747B;
-	font-size:3vw;
-	font-family: 'Yatra One', cursive;
-}
-
-.LeftNavBar {
-	height:100%;
-	color:#040044;
-	font-size:2vw;
-	font-family: 'Yatra One', cursive;
-	border:2px #F9BEBE ridge;
-	border-style: none solid none none;
-}
-
-.CurrentSelectedNavBar {
-	color:#C9526B;
-	background:#040044
-}
-
-.MainText {
-	color:#040044;
-	font-size:1vw;
-	font-family: 'Yatra One', cursive;
+	font-size:5vw;
+	font-weight:bold;
 }
