@@ -20,11 +20,12 @@ p {
 		
 	padding-right: 25%;
 	padding-left:2%;
-
 }
 html, body {
 	height: 100%;
 	font-family: 'Comfortaa', cursive;
+	font-size:1vw;
+	color:#040044;
 }
 
 .container {
@@ -45,4 +46,26 @@ html, body {
 
 .fullStop {
 	color: #F9BEBE;
+}
+
+
+
+a {
+	text-decoration:none;
+}
+/* unvisited link */
+a:link {
+  color: #040044;
+}
+/* visited link */
+a:visited {
+  color: #040044;
+}
+/* mouse over link */
+a:hover {
+  color: #C9526B;
+}
+/* selected link */
+a:active {
+  color: #C9526B;
 }
