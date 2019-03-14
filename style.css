@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yatra+One');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 /*
 COLOURS
@@ -37,8 +37,12 @@ html, body {
 }
 
 .title{
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Ubuntu', sans-serif;
 	color:#040044;
 	font-size:5vw;
 	font-weight:bold;
+}
+
+.fullStop {
+	color: #F9BEBE;
 }
