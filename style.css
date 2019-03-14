@@ -18,8 +18,8 @@ p {
 	margin: 0;
 	padding: 0;
 		
-	padding-right: 25%;
-	padding-left:2%;
+	padding-right: 0%;
+	padding-left: 0%;
 }
 html, body {
 	height: 100%;
@@ -48,7 +48,9 @@ html, body {
 	color: #F9BEBE;
 }
 
-
+.copyright{
+	font-size:1.4vh;
+}
 
 a {
 	text-decoration:none;
