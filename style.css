@@ -17,7 +17,7 @@ COLOURS
 p {
 	margin: 0;
 	padding: 0;
-		
+
 	padding-right: 0%;
 	padding-left: 0%;
 }
@@ -36,12 +36,18 @@ html, body {
 	width:20vw;
 	height:width;
 }
+.smallLogo {
+	width:3vw;
+}
 
 .title{
 	font-family: 'Ubuntu', sans-serif;
 	color:#040044;
 	font-size:5vw;
 	font-weight:bold;
+}
+.smallTitle{
+	font-size:1vw;
 }
 
 .fullStop {
