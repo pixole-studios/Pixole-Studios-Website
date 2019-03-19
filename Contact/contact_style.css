@@ -14,7 +14,7 @@
 
 .console_text {
   font-family: 'Inconsolata', monospace;
-  font-size: 1vw;
+  font-size: 1.3vw;
   color:white;
 }
 .console_rect {
@@ -22,12 +22,19 @@
   background-color:black;
   border-radius: 15px;
   padding: 20px;
+  width:40vw;
+  height:21vw;
 }
 .console_blinking {
   animation-name: blinkingAnimWhite;
   animation-duration: 1.3s;
   animation-iteration-count: infinite;
 }
+.console_link:hover,
+.console_link:active{
+  color:#00747B;
+}
+
 
 @keyframes blinkingAnim {
   0% {color:#ffffff00;}
