@@ -58,6 +58,22 @@ html, body {
 	font-size:1.4vh;
 }
 
+.heading {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.2vw;
+	font-weight: bold;
+}
+.underline_rect{
+	/*border:1px solid #000;*/
+	background-color:#F9BEBE;
+	border-radius: 1px;
+	height:10px;
+}
+
+.para{
+	align:center;
+}
+
 a {
 	text-decoration:none;
 }
