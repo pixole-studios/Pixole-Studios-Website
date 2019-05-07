@@ -16,5 +16,5 @@
 		- ...
 		- ...
 	- Contact
-		>LinkedIn, Twitter, Facebook, Itch.io, GitLab etc.
+		>LinkedIn, Twitter, Facebook, Itch.io, GitHub etc.
 ###### Created by **Joe Rickard** at [Pixole Studios](https://www.pixolestudios.com "Pixole Studios")
