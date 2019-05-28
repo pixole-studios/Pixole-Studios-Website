@@ -3,4 +3,25 @@
   height:width;
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 1vw;
+}
+
+.centreContentDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.missionDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.joeDiv {
+  display: flex;
+  flex-direction: row;
 }

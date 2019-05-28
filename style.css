@@ -54,6 +54,7 @@ html, body {
 .navBarItem {
 	margin-left: 5vw;
 	text-align: center;
+	flex: initial;
 }
 
 .footer {
@@ -77,11 +78,18 @@ html, body {
 	text-align: center;
 }
 
-.logoBlock{
+.centerBlock{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex: 1;
+}
+
+.smallLogoDiv{
+	margin-left: 1%;
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
 }
 
 .logo {
@@ -90,6 +98,7 @@ html, body {
 }
 .smallLogo {
 	width:3vw;
+	float:left;
 }
 
 .title{
@@ -110,16 +119,20 @@ html, body {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 2.2vw;
 	font-weight: bold;
+	text-align: center;
 }
 .underline_rect{
 	/*border:1px solid #000;*/
 	background-color:#F9BEBE;
 	border-radius: 1px;
-	height:10px;
+	height:0.5vw;
+	align-self: center;
+	margin-bottom: 0.5vw;
 }
 
 .para{
-	align:center;
+	align-self:center;
+	margin-bottom: 2vw;
 }
 
 a {
