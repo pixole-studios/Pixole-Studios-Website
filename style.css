@@ -137,6 +137,7 @@ html, body {
 
 a {
 	text-decoration:none;
+	position: relative;
 }
 /* unvisited link */
 a:link {
@@ -153,4 +154,22 @@ a:hover {
 /* selected link */
 a:active {
   color: #C9526B;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #CBDC48;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+a:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
