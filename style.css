@@ -10,8 +10,6 @@ COLOURS
 #CBDC48 - Lime
 #F9BEBE - Light Pink
 #C9526B - Dark Pink
-
-
 */
 
 p {
@@ -22,7 +20,7 @@ p {
 	padding-left: 0%;
 }
 html, body {
-	height: 100%;
+	/* height: 100%; */
 	font-family: 'Comfortaa', cursive;
 	font-size:1vw;
 	color:#040044;
@@ -31,6 +29,68 @@ html, body {
 .container {
 	margin:0 auto;
 }
+.mainDiv {
+	display:flex;
+	height: 100vh;
+
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.navBarTop {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1%;
+	margin-right: 1vw;
+}
+.navBarBottom {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 1%;
+}
+.navBarItem {
+	margin-left: 5vw;
+	text-align: center;
+	flex: initial;
+}
+
+.footer {
+	display:flex;
+	justify-content: flex-end;
+	margin-bottom: 1%;
+	width: 100%;
+}
+.footer-item {
+  /* height: 200px; */
+  flex: 1;
+	text-align: center;
+}
+.footerItemLeft,
+.footerItemRight {
+  flex: initial;
+  width: 100px;
+	margin-right: 1vw;
+}
+.footerItemCenter{
+	text-align: center;
+}
+
+.centerBlock{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.smallLogoDiv{
+	margin-left: 1%;
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+}
 
 .logo {
 	width:20vw;
@@ -38,6 +98,7 @@ html, body {
 }
 .smallLogo {
 	width:3vw;
+	float:left;
 }
 
 .title{
@@ -54,24 +115,24 @@ html, body {
 	color: #F9BEBE;
 }
 
-.copyright{
-	font-size:1.4vh;
-}
-
 .heading {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 2.2vw;
 	font-weight: bold;
+	text-align: center;
 }
 .underline_rect{
 	/*border:1px solid #000;*/
 	background-color:#F9BEBE;
 	border-radius: 1px;
-	height:10px;
+	height:0.5vw;
+	align-self: center;
+	margin-bottom: 0.5vw;
 }
 
 .para{
-	align:center;
+	align-self:center;
+	margin-bottom: 2vw;
 }
 
 a {
