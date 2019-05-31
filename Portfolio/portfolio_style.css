@@ -1,3 +1,15 @@
+/*
+COLOURS
+#222831 Dark Grey
+#393e46 Light Grey
+#00adb5 Turquoise
+#eeeeee Off white
+*/
+html, body {
+  color: #eeeeee;
+}
+
 .centerBlock{
   flex-direction: column;
+  background-color: #222831;
 }
