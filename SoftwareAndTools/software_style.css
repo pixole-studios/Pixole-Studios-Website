@@ -1,0 +1,25 @@
+.centerBlock{
+  flex-direction: column;
+}
+
+.icondiv{
+  display: flex;
+}
+
+.roundIcon {
+  margin: 1vw;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  box-shadow: 1px 1px 8px grey;
+  object-fit:cover;
+  transition: transform 0.1s ease;
+}
+
+.roundIcon:hover{
+  transform: scale(1.05);
+}
+
+.starterTabIcon{
+  box-shadow: 1px 1px 15px black;
+}

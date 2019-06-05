@@ -3,6 +3,8 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<link href="/style.css" rel="stylesheet" type="text/css" />
+		<link href="software_style.css" rel="stylesheet" type="text/css" />
+		<script src="/js/scripts.js"></script>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>Pixole Studios - Software and Tool</title>
 	</head>
@@ -23,10 +25,26 @@
 
 			<div class="centerBlock">
 				<!-- Main content goes here -->
-				<p style="font-size:2vw; text-align:center">
-					Page still under development...<br><br>
-					Check back soon!
-				</p>
+				<div class="icondiv">
+					<img id="procgenicon" class="roundIcon starterTabIcon" onclick="openPage('procgen', 'procgenicon')" alt="Procedural Generation" src="/media/portfolio/procgen.jpg"/>
+					<img id="ploggericon" class="roundIcon" onclick="openPage('plogger', 'ploggericon')" alt="Pixole Logger" src="/media/portfolio/plogger.png"/>
+					<img id="pswritericon" class="roundIcon" onclick="openPage('pswriter', 'pswritericon')" alt="PS Writer" src="/media/portfolio/pswriter.png"/>
+				</div>
+				<div id="procgen" class="tabcontent">
+				  <p class="heading">Procedural Generation</p>
+				  <p>A small java program which procudurally generates a world map based on a predfined set of parameters.<br>
+						Check out the source for it <a class="noLinkEffect" style="color:#00747B;" href="https://github.com/Kalekdan/Procedural-Generation"><i>here. </i>(github.com)</a></p>
+				</div>
+				<div id="plogger" class="tabcontent" style="display:none;">
+					<p class="heading">Pixole Logger</p>
+				  <p>A simple, lightweight and easily customizable java logging tool.<br>
+						Check out the source for it <a class="noLinkEffect" style="color:#00747B;" href="https://github.com/Kalekdan/Pixole-Logger"><i>here. </i>(github.com)</a></p>
+				</div>	
+				<div id="pswriter" class="tabcontent" style="display:none;">
+					<p class="heading">PS Writer</p>
+				  <p>A writers tool written in java to allow novellists to write and develop stories easily and efficiently.<br>
+						Check out the source for it <a class="noLinkEffect" style="color:#00747B;" href="https://github.com/Kalekdan/PS-Writer"><i>here. </i>(github.com)</a></p>
+				</div>	
 			</div>
 
 			<div class="footer">
