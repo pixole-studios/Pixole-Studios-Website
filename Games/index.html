@@ -3,7 +3,8 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<link href="/style.css" rel="stylesheet" type="text/css" />
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link href="games_style.css" rel="stylesheet" type="text/css" />
+		<script src="/js/scripts.js"></script>		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>Pixole Studios - Games</title>
 	</head>
 	<body class="container">
@@ -23,10 +24,22 @@
 
 			<div class="centerBlock">
 				<!-- Main content goes here -->
-				<p style="font-size:2vw; text-align:center">
-					Page still under development...<br><br>
-					Check back soon!
-				</p>
+				<div class="icondiv">
+					<img id="specialconnicon" class="roundIcon starterTabIcon" onclick="openPage('specialconn', 'specialconnicon')" alt="A Special Connection" src="/media/portfolio/games/specialconnection.jpg"/>
+					<img id="rotatoicon" class="roundIcon" onclick="openPage('rotato', 'rotatoicon')" alt="Rotato" src="/media/portfolio/games/rotato.png"/>
+				</div>
+				<div id="specialconn" class="tabcontent">
+				  <p class="heading">A Special Connection</p>
+				  <p>Play as two separated lovers who must use their connection to solve puzzles for each other.<br>
+						Created as an entry for 'Brackeys Game Jam 2' with the theme 'Love is Blind'.<br><br>
+						<b>Release status:</b> Not yet released</p>
+				</div>
+				<div id="rotato" class="tabcontent" style="display:none;">
+					<p class="heading">Rotato</p>
+				  <p>A puzzle platformer where the player can't jump. You must use your ability to rotate the world around you to progress.<br>
+						Created as an entry for 'Game Maker's Toolkit Jam 2018' with the theme 'GENRE, but you can’t MECHANIC'.<br><br>
+						<b>Release status:</b> Available as prototype <a class="noLinkEffect" style="color:#00747B;" href="https://kalekdan.itch.io/rotato"><i>here. </i>(itch.io)</a></p>
+				</div>	
 			</div>
 
 			<div class="footer">
