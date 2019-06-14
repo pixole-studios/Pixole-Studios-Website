@@ -10,6 +10,9 @@
   margin-left: 8vw;
 }
 
+/*
+Font and style for console text
+ */
 .console_style {
   font-family: 'Inconsolata', monospace;
   font-size: 4.5vw;
@@ -19,6 +22,9 @@
 .helloWorldStyle{
   margin-bottom: 3vw; 
 }
+/*
+Indents each of the lines increasingly
+ */
 .gettingInTouch{
   margin-left: 4vw;
   margin-bottom: 2vw;
@@ -31,6 +37,9 @@
   margin-left: 12vw;
 }
 
+/*
+Flashes between 0-255 alpha
+ */
 .blinking {
   animation-name: blinkingAnim;
   animation-duration: 1.5s;
@@ -60,6 +69,10 @@
   color:#00747B;
 }
 
+/*
+If screen size is < 800px
+adjusts layout to be column instead of rows
+ */
 @media screen and (max-width: 800px) {
   .centerBlock{
     flex-direction: column;
@@ -77,6 +90,9 @@
   }
 }
 
+/*
+Blinking animations for 'cursor'
+ */
 @keyframes blinkingAnim {
   0% {color:#ffffff00;}
   49% {color:#ffffff00;}

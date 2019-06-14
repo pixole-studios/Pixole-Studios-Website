@@ -8,6 +8,9 @@
   bottom:1vw;
   transition: transform 0.1s ease;
 }
+/*
+Makes the image grow slightly on hover
+ */
 .teampic:hover{ 
   transform: scale(1.04);
 }

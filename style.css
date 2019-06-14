@@ -78,6 +78,10 @@ html, body {
 	text-align: center;
 }
 
+/*
+Main content div, centred vertically
+and stretches to fit
+ */
 .centerBlock{
 	display: flex;
 	justify-content: center;
@@ -96,7 +100,7 @@ html, body {
 	width:20vw;
 	height:width;
 }
-.smallLogo {
+.smallLogo { /* Top left of most pages */ 
 	width:3vw;
 	float:left;
 }
@@ -107,7 +111,7 @@ html, body {
 	font-size:5vw;
 	font-weight:bold;
 }
-.smallTitle{
+.smallTitle{ /* Top left of most pages */ 
 	font-size:1vw;
 }
 
@@ -135,6 +139,9 @@ html, body {
 	margin-bottom: 2vw;
 }
 
+/*
+Colors the links pink on hover
+ */
 a {
 	text-decoration:none;
 	position: relative;
@@ -156,6 +163,10 @@ a:active {
   color: #C9526B;
 }
 
+/*
+Adds the bar effect beneath links unless
+tagged with noLinkEffect class
+ */
 a:not(.noLinkEffect)::before {
   content: '';
   position: absolute;
