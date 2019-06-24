@@ -11,5 +11,16 @@ html, body {
 
 .centerBlock{
   flex-direction: column;
-  background-color: #222831;
+  background-color: #393e46;
+}
+
+.heading{
+  color: #00adb5;
+}
+
+.section{
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
 }
