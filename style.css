@@ -100,7 +100,7 @@ and stretches to fit
 	width:20vw;
 	height:width;
 }
-.smallLogo { /* Top left of most pages */ 
+.smallLogo { /* Top left of most pages */
 	width:3vw;
 	float:left;
 }
@@ -111,7 +111,7 @@ and stretches to fit
 	font-size:5vw;
 	font-weight:bold;
 }
-.smallTitle{ /* Top left of most pages */ 
+.smallTitle{ /* Top left of most pages */
 	font-size:1vw;
 }
 
@@ -190,6 +190,8 @@ Styles for icon tabs on software page and games page
  */
 .icondiv{
  display: flex;
+ flex: initial;
+ margin-top: 5vw;
 }
 
 .roundIcon {
@@ -200,6 +202,12 @@ Styles for icon tabs on software page and games page
  box-shadow: 1px 1px 8px grey;
  object-fit:cover;
  transition: transform 0.1s ease;
+}
+
+.tabcontent{
+	display: flex;
+	flex: 1;
+	display: block;
 }
 
 .roundIcon:hover{
